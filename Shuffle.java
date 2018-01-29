@@ -30,7 +30,7 @@ public class Shuffle {
 		final String split = "###";
 		try {
 			
-			File rmfFile = new File("C:\\Users\\steven.rogers\\Desktop\\rmf_controls.csv");
+			File rmfFile = new File("C:\\Users\\user\\Desktop\\rmf_controls.csv");
 			CSVReader rmfReader = new CSVReader(new FileReader(rmfFile));
 			String[] rmfNextLine;
 			while ((rmfNextLine = rmfReader.readNext()) != null) {
@@ -42,7 +42,7 @@ public class Shuffle {
 			
 			System.out.println("Digested RMF Contorls");
 			
-			File stigFile = new File("C:\\Users\\steven.rogers\\Desktop\\stig_controls.csv");
+			File stigFile = new File("C:\\Users\\user\\Desktop\\stig_controls.csv");
 			CSVReader stigReader = new CSVReader(new FileReader(stigFile));
 			String[] stigNextLine;
 			while ((stigNextLine = stigReader.readNext()) != null) {
