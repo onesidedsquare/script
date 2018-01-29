@@ -16,7 +16,7 @@ import au.com.bytecode.opencsv.CSVWriter;
  * 
  * @author steven.rogers
  *
- * QUADTRIBLE CHECK YOUR DATA BEFORE PROCESSING, RMF and STIG much align
+ * QUADTRIBLE CHECK YOUR DATA BEFORE PROCESSING, RMF and STIG must align
  * But they will not always have the same number of controls
  * Output should have the same number line as in the RMF controls file
  *
